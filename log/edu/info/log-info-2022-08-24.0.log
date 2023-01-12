@@ -1,0 +1,124 @@
+2022-08-24 11:06:48.232 [main] INFO  com.atguigu.eduservice.EduApplication - Starting EduApplication on DESKTOP-K8CD9UP with PID 4372 (D:\BaiduNetdiskDownload\yolo\guli_parent\service\service_edu\target\classes started by 464 in D:\BaiduNetdiskDownload\yolo\guli_parent)
+2022-08-24 11:06:48.239 [main] INFO  com.atguigu.eduservice.EduApplication - The following profiles are active: dev
+2022-08-24 11:06:49.606 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-24 11:06:49.608 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-08-24 11:06:49.638 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2022-08-24 11:06:49.928 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.servicebase.RedisConfig$$EnhancerBySpringCGLIB$$5df19d9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24 11:06:49.934 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24 11:06:50.264 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-08-24 11:06:50.277 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-08-24 11:06:50.277 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-24 11:06:50.278 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-08-24 11:06:50.392 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-24 11:06:50.392 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2020 ms
+2022-08-24 11:06:50.600 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-24 11:06:51.214 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-24 11:06:52.871 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-24 11:06:52.990 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-24 11:06:53.345 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-24 11:06:53.396 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-08-24 11:06:53.458 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 11:06:53.634 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-08-24 11:06:53.653 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-08-24 11:06:53.656 [main] INFO  com.atguigu.eduservice.EduApplication - Started EduApplication in 6.506 seconds (JVM running for 9.213)
+2022-08-24 11:08:04.216 [http-nio-8001-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1635421405,1635421435,1635421648] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-08-24 11:08:04.224 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-24 11:08:04.224 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-24 11:08:04.231 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2022-08-24 11:18:46.866 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-24 11:18:46.896 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-24 11:18:46.953 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-08-24 11:18:55.676 [main] INFO  com.atguigu.eduservice.EduApplication - Starting EduApplication on DESKTOP-K8CD9UP with PID 21364 (D:\BaiduNetdiskDownload\yolo\guli_parent\service\service_edu\target\classes started by 464 in D:\BaiduNetdiskDownload\yolo\guli_parent)
+2022-08-24 11:18:55.680 [main] INFO  com.atguigu.eduservice.EduApplication - The following profiles are active: dev
+2022-08-24 11:18:57.260 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-24 11:18:57.263 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-08-24 11:18:57.314 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2022-08-24 11:18:57.722 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.servicebase.RedisConfig$$EnhancerBySpringCGLIB$$46ea3ecf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24 11:18:57.730 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24 11:18:58.031 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-08-24 11:18:58.039 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-08-24 11:18:58.040 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-24 11:18:58.040 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-08-24 11:18:58.133 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-24 11:18:58.134 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2330 ms
+2022-08-24 11:18:58.322 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-24 11:18:58.889 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-24 11:18:59.735 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-24 11:18:59.825 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-24 11:19:00.087 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-24 11:19:00.108 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-08-24 11:19:00.166 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 11:19:00.357 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-08-24 11:19:00.375 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-08-24 11:19:00.378 [main] INFO  com.atguigu.eduservice.EduApplication - Started EduApplication in 5.315 seconds (JVM running for 6.979)
+2022-08-24 11:21:44.245 [http-nio-8001-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1635421405,1635421435,1635421648] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-08-24 11:21:44.250 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-24 11:21:44.250 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-24 11:21:44.257 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2022-08-24 11:24:06.823 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-24 11:24:06.842 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-24 11:24:06.855 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-08-24 11:24:14.080 [main] INFO  com.atguigu.eduservice.EduApplication - Starting EduApplication on DESKTOP-K8CD9UP with PID 13356 (D:\BaiduNetdiskDownload\yolo\guli_parent\service\service_edu\target\classes started by 464 in D:\BaiduNetdiskDownload\yolo\guli_parent)
+2022-08-24 11:24:14.084 [main] INFO  com.atguigu.eduservice.EduApplication - The following profiles are active: dev
+2022-08-24 11:24:15.077 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-24 11:24:15.079 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-08-24 11:24:15.103 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2022-08-24 11:24:15.334 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.servicebase.RedisConfig$$EnhancerBySpringCGLIB$$f0e8002a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24 11:24:15.339 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24 11:24:15.569 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-08-24 11:24:15.577 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-08-24 11:24:15.578 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-24 11:24:15.578 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-08-24 11:24:15.662 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-24 11:24:15.663 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1514 ms
+2022-08-24 11:24:15.826 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-24 11:24:16.337 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-24 11:24:17.083 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-24 11:24:17.170 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-24 11:24:17.419 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-24 11:24:17.433 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-08-24 11:24:17.460 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 11:24:17.603 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-08-24 11:24:17.622 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-08-24 11:24:17.624 [main] INFO  com.atguigu.eduservice.EduApplication - Started EduApplication in 4.407 seconds (JVM running for 5.709)
+2022-08-24 11:25:07.145 [http-nio-8001-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1635421405,1635421435,1635421648] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-08-24 11:25:07.178 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-24 11:25:07.178 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-24 11:25:07.213 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 34 ms
+2022-08-24 11:26:27.193 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-24 11:26:27.261 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-24 11:26:27.269 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-08-24 11:26:50.203 [main] INFO  com.atguigu.eduservice.EduApplication - Starting EduApplication on DESKTOP-K8CD9UP with PID 23300 (D:\BaiduNetdiskDownload\yolo\guli_parent\service\service_edu\target\classes started by 464 in D:\BaiduNetdiskDownload\yolo\guli_parent)
+2022-08-24 11:26:50.211 [main] INFO  com.atguigu.eduservice.EduApplication - The following profiles are active: dev
+2022-08-24 11:26:55.784 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-24 11:26:55.801 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-08-24 11:26:56.227 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49ms. Found 0 repository interfaces.
+2022-08-24 11:26:59.368 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.servicebase.RedisConfig$$EnhancerBySpringCGLIB$$d3e46dd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24 11:26:59.387 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24 11:27:00.635 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-08-24 11:27:00.665 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-08-24 11:27:00.666 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-24 11:27:00.666 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-08-24 11:27:01.002 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-24 11:27:01.002 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 10530 ms
+2022-08-24 11:27:01.840 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-24 11:27:04.486 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-24 11:27:09.086 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-24 11:27:09.433 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-24 11:27:11.031 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-24 11:27:11.115 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-08-24 11:27:11.247 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 11:27:11.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-08-24 11:27:12.095 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-08-24 11:27:12.182 [main] INFO  com.atguigu.eduservice.EduApplication - Started EduApplication in 24.24 seconds (JVM running for 27.392)
+2022-08-24 11:27:15.411 [http-nio-8001-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1635421405,1635421435,1635421648] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-08-24 11:27:15.432 [http-nio-8001-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-24 11:27:15.433 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-24 11:27:15.454 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2022-08-24 12:28:43.011 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-24 12:28:43.292 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-24 12:28:43.308 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,41 @@
+2022-12-27 17:22:30.899 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 17:22:30.910 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 18:33:20.699 [Finalizer] WARN  com.alibaba.excel.ExcelReader - Destroy object failed
+java.lang.NullPointerException: null
+	at com.alibaba.excel.ExcelReader.finish(ExcelReader.java:277)
+	at com.alibaba.excel.ExcelReader.finalize(ExcelReader.java:287)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2121)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+2022-12-27 18:43:31.782 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 18:43:31.787 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 18:47:18.919 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 18:47:18.924 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 18:49:43.252 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 18:49:43.257 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 18:52:57.375 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 18:52:57.379 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 18:54:17.197 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 18:54:17.201 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 19:08:21.075 [Finalizer] WARN  com.alibaba.excel.ExcelReader - Destroy object failed
+java.lang.NullPointerException: null
+	at com.alibaba.excel.ExcelReader.finish(ExcelReader.java:277)
+	at com.alibaba.excel.ExcelReader.finalize(ExcelReader.java:287)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2121)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+2022-12-27 19:12:18.069 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 19:12:18.073 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 21:09:59.217 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 21:09:59.221 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 21:48:48.454 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.atguigu.eduservice.EduApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'eduSubjectController' for bean class [com.atguigu.eduservice.controllerr.TestController] conflicts with existing, non-compatible bean definition of same name and class [com.atguigu.eduservice.controller.EduSubjectController]
+2022-12-27 21:50:18.915 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 21:50:18.919 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 21:53:18.034 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 21:53:18.039 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 21:54:46.983 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 21:54:46.988 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 21:56:18.285 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 21:56:18.291 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 23:44:50.915 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-12-27 23:44:50.917 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

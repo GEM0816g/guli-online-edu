@@ -1,0 +1,7 @@
+2022-08-20 12:04:25.363 [http-nio-8001-exec-6] ERROR c.a.s.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+### The error may involve com.atguigu.eduservice.mapper.EduCourseMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_course  ( id, teacher_id, subject_id,  title, price, lesson_num, cover,      gmt_create, gmt_modified )  VALUES  ( ?, ?, ?,  ?, ?, ?, ?,      ?, ? )
+### Cause: java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+; Field 'subject_parent_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
